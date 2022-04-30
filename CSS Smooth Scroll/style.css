@@ -1,0 +1,44 @@
+/* Please ❤ this if you like it! */
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  position: fixed;
+  left: calc(50vw - 115px);
+  top: 0;
+  width: 200px;
+  text-align: center;
+  padding: 15px;
+  background: #fff;
+  box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+nav .link {
+  padding: 5px;
+  color: white;
+}
+
+.section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 5em;
+  text-shadow: 0px 2px 0px #b2a98f, 0px 4px 3px rgba(0, 0, 0, 0.15),
+    0px 8px 1px rgba(0, 0, 0, 0.1);
+}
+
+.bg-red {
+  background: #de5448;
+}
+
+.bg-blue {
+  background: #4267b2;
+}
+
+.bg-green {
+  background: #4caf50;
+}
