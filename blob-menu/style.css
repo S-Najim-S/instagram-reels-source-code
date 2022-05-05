@@ -11,7 +11,7 @@ svg {
   left: -600px;
   top: -600px;
   display: block;
-  filter: drop-shadow(10px 20px 5px #42454a);
+  filter: drop-shadow(10px 20px 5px #5bf5a380);
   transition: left 0.5s, top 0.5s;
 }
 
