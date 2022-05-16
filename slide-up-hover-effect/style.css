@@ -44,7 +44,7 @@ body {
 }
 
 .card:hover .card__overlay {
-  transform: translateY(0);
+  transform: translateY(0.4%);
 }
 
 .card__header {
@@ -55,7 +55,7 @@ body {
   padding: 2em;
   border-radius: calc(var(--curve) * 1px) 0 0 0;
   background-color: var(--surface-color);
-  transform: translateY(-100%);
+  transform: translateY(-99.4%);
   transition: 0.2s ease-in-out;
 }
 
