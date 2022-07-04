@@ -27,3 +27,11 @@
     border-color: transparent;
   }
 }
+body {
+}
+body img {
+  height: 10rem;
+  filter: drop-shadow(16px 16px 20px red) invert(75%);
+  margin-left: 50rem;
+  margin-top: 10rem;
+}
