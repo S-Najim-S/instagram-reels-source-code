@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background: #ebebeb;
+  min-height: 100vh;
+  padding: 100px 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  grid-gap: 150px 100px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.photo {
+  width: 200px;
+  height: 300px;
+  position: relative;
+}
+.photo__image,
+.photo__feather {
+  border-radius: 5px;
+  background-position: center;
+  width: inherit;
+  height: inherit;
+}
+.photo__image {
+  color: rgba(0, 0, 0, 0.16);
+  box-shadow: 0 2px 4px, 0 4px 8px -1px, 0 8px 16px -2px, 0 16px 32px -4px,
+    0 32px 64px -8px, 0 64px 128px -16px;
+  background-size: 150%;
+}
+.photo__feather {
+  box-shadow: 0 0 10px 10px #ebebeb inset, 0 0 30px 20px #ebebeb inset,
+    0 0 50px 30px #ebebeb inset;
+  background-size: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  opacity: 0.5;
+  transform: scale(1.5);
+}
